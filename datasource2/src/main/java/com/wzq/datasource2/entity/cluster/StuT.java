@@ -1,0 +1,36 @@
+package com.wzq.datasource2.entity.cluster;
+
+
+/**
+ * <p>
+ * 
+ * </p>
+ *
+ * @author virus_plus
+ * @since 2019-06-29
+ */
+public class StuT {
+
+    private static final long serialVersionUID = 1L;
+
+    private Integer id;
+    private String name;
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+}
