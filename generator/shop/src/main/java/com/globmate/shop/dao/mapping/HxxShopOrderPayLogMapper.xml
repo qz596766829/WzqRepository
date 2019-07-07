@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.globmate.shop.dao.HxxShopOrderPayLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.globmate.shop.entity.HxxShopOrderPayLog">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="pay_type" property="payType" />
+        <result column="pay_status" property="payStatus" />
+        <result column="reason" property="reason" />
+        <result column="pay_code" property="payCode" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, order_id, pay_type, pay_status, reason, pay_code, create_time
+    </sql>
+
+</mapper>
